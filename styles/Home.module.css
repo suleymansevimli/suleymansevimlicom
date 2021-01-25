@@ -1,0 +1,98 @@
+.container {
+    background: #010115;
+//background: linear-gradient(to right top, #65dfc9, #6cdbeb); //background: radial-gradient(circle, #5d40f5 40%,#427bd5 52%,#37dbff 68%); min-height: 100vh; display: flex; align-items: center;
+    justify-content: center;
+
+
+    .main {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100vh;
+
+        .balloon1 {
+            z-index: 1;
+            position: absolute;
+            left: 21%;
+            top: 21%;
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            background: rgba(255,0,0,0.2);
+        }
+
+        .balloon2 {
+            z-index: 1;
+            position: absolute;
+            right: 21%;
+            bottom: 21%;
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            background: rgba(255,0,122,0.3);
+        }
+
+        .balloon3 {
+            z-index: 1;
+            position: absolute;
+            right: 27%;
+            bottom: 31%;
+            height: 75px;
+            width: 75px;
+            border-radius: 50%;
+            background: rgba(255,110,122,0.3);
+        }
+
+
+        .left {
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            justify-self: flex-start;
+            max-width: 100%;
+            height: 90vh;
+            margin-left: 15px;
+        }
+
+        .glass {
+            margin: 0 30px;
+            flex: 2;
+            width: 50%;
+            height: 50%;
+            background: rgba(255, 255, 255, 0.25);
+        //box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+
+            border-radius: 10px;
+            padding: 15px 20px;
+            position: relative;
+            z-index: 111;
+
+
+        }
+
+        .right {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            max-width: 100%;
+            height: 90vh;
+            margin-right: 15px;
+        }
+    }
+
+}
+
+.glassCard {
+    width: 100%;
+    height: 25vh !important;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin: 20px 0;
+}
+
