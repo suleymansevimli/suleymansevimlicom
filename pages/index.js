@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
-export default function Home() {
+const Home = () => {
     return (
         <div className={styles.container}>
             <Head>
@@ -18,14 +18,13 @@ export default function Home() {
 
                 <section className={styles.left}> </section>
 
-                <section className={styles.glass}>
+                <section className={styles.glass}> </section>
 
-                </section>
+                <section className={styles.right}> </section>
 
-                <section className={styles.right}>
-
-                </section>
             </main>
         </div>
     )
 }
+
+export default Home;
