@@ -16,7 +16,8 @@ const Home = () => {
                 <div className={styles.balloon3}/>
                 <img className={styles.triangle} src={"/img/materials/triangle.png"} alt="triangle"/>
 
-                <section className={styles.left}> </section>
+                <section className={styles.left}>
+                </section>
 
                 <section className={styles.glass}> </section>
 
