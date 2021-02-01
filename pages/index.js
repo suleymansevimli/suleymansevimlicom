@@ -16,12 +16,13 @@ const Home = () => {
                 <div className={styles.balloon3}/>
                 <img className={styles.triangle} src={"/img/materials/triangle.png"} alt="triangle"/>
 
-                <section className={styles.left}>
+                <section className={styles.left}></section>
+
+                <section className={styles.glass}>
+                    <h3>Süleyman Sevimli</h3>
                 </section>
 
-                <section className={styles.glass}> </section>
-
-                <section className={styles.right}> </section>
+                <section className={styles.right}></section>
 
             </main>
         </div>

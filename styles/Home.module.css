@@ -82,6 +82,10 @@
             padding: 15px 20px;
             position: relative;
             z-index: 111;
+
+            h3 {
+                text-align: center;
+            }
         }
 
         .right {
