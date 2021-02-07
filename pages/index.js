@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div className={styles.container}>
             <Head>
-                <title>Hello Magician !</title>
+                <title>Süleyman Sevimli</title>
                 <link rel="icon" href={"/favicon.ico"}/>
             </Head>
 
@@ -19,7 +19,22 @@ const Home = () => {
                 <section className={styles.left}></section>
 
                 <section className={styles.glass}>
-                    <h3>Süleyman Sevimli</h3>
+                    <div className={styles.content}>
+                        <div className={styles.header}>
+                            <h3>Süleyman Sevimli</h3>
+                        </div>
+
+                        <div className={styles.body}>
+
+                        </div>
+
+                        <div className={styles.footer}>
+                            <footer>
+
+                            </footer>
+                        </div>
+
+                    </div>
                 </section>
 
                 <section className={styles.right}></section>
