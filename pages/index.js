@@ -25,12 +25,12 @@ const Home = () => {
                         </div>
 
                         <div className={styles.body}>
-
+                            
                         </div>
 
                         <div className={styles.footer}>
-                            <footer>
-
+                            <footer classname={styles.footer}>
+                                <p> &copy; All Rights Reserved.  </p>
                             </footer>
                         </div>
 
